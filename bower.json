@@ -1,0 +1,27 @@
+{
+  "name": "journal",
+  "description": "Journal application that accepts title and body input, returns word count and other measurments.",
+  "main": "scripts.js",
+  "authors": [
+    "cheryl and sailor"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "journal",
+    "js",
+    "node",
+    "gulp"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}

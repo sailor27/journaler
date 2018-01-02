@@ -1,0 +1,35 @@
+{
+  "name": "journal",
+  "version": "1.0.0",
+  "description": "Journal application that accepts title and body input, returns word count and other measurments.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "\"hi cheryl\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sailor27/journaler.git"
+  },
+  "keywords": [
+    "journal",
+    "js",
+    "node",
+    "gulp"
+  ],
+  "author": "cheryl and sailor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sailor27/journaler/issues"
+  },
+  "homepage": "https://github.com/sailor27/journaler#readme",
+  "dependencies": {
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-util": "^3.0.8",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
