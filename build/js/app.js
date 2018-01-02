@@ -1,1 +1,25 @@
-!function r(t,e,n){function o(u,f){if(!e[u]){if(!t[u]){var s="function"==typeof require&&require;if(!f&&s)return s(u,!0);if(i)return i(u,!0);var c=new Error("Cannot find module '"+u+"'");throw c.code="MODULE_NOT_FOUND",c}var a=e[u]={exports:{}};t[u][0].call(a.exports,function(r){var e=t[u][1][r];return o(e||r)},a,a.exports,r,t,e,n)}return e[u].exports}for(var i="function"==typeof require&&require,u=0;u<n.length;u++)o(n[u]);return o}({1:[function(r,t,e){e.entryModule=function(r,t){this.title=r,this.body=t}},{}],2:[function(r,t,e){var n=r("./../js/scripts.js").entryModule;$(document).ready(function(){$("form#entry-form").submit(function(){event.preventDefault(),alert("jquery is working")})});function n(r,t){this.title=r,this.body=t}e.entryModule=n},{"./../js/scripts.js":1}]},{},[2]);
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+function Entry(title, body) {
+  this.title = title;
+  this.body = body;
+}
+exports.entryModule = Entry;
+
+},{}],2:[function(require,module,exports){
+var Entry = require('./../js/scripts.js').entryModule;
+
+$(document).ready(function(){
+  $("form#entry-form").submit(function() {
+    event.preventDefault();
+    alert("jquery is working");
+    alert("gulp is watching development js and bower");
+  });
+});
+
+function Entry(title, body) {
+  this.title = title;
+  this.body = body;
+}
+exports.entryModule = Entry;
+
+},{"./../js/scripts.js":1}]},{},[2]);
