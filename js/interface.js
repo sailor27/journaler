@@ -1,6 +1,6 @@
 var Entry = require('./../js/scripts.js').entryModule;
 
-$(document).ready(function(){
+$(document).ready(function() {
   $("form#entry-form").submit(function() {
     event.preventDefault();
     var inputtedTitle = $('input#entry-title').val();
@@ -12,5 +12,5 @@ $(document).ready(function(){
     console.log(wordCount);
     console.log(letterCount);
     console.log(allLetters);
-  });
+	});
 });

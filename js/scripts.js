@@ -21,17 +21,17 @@ Entry.prototype.countLetters = function(){
 }
 
 //for all letters in an array, if its a, e, i, o or u, push into an array
-// var getVowels = function(arr){
-//   var vcount = 0;
-//   for (var i = 0; i <= arr.length, i++) {
-//     if arr[i] === "a" || "e" || "i" || "o" || "u" {
-//       vcount += 1;
-//     } else {
-//       alert("next");
-//     }
-//     return vcount;
-//   }
-// }
+var getVowels = function(arr){
+  var vcount = 0;
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === "a"){
+      vcount += 1;
+			console.log(vcount);
+		}
+	return vcount;
+	}
+};
 
 
 exports.entryModule = Entry;
+ // || "e" || "i" || "o" || "u"
